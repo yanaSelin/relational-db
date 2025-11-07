@@ -1,0 +1,19 @@
+# PostgreSQL runtime/data directories (local database cluster)
+data/
+# If you only want to ignore the inner db folder use: data/db/
+
+# Editor / OS artifacts
+.DS_Store
+.idea/
+*.swp
+
+# Env / secrets
+.env
+.env.*
+
+# Logs
+*.log
+
+# Docker volumes (if you bind additional local dirs)
+volumes/
+
