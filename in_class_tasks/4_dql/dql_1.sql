@@ -1,3 +1,13 @@
+-- DQL - SELECT
+--
+-- 5 SELECT - column, column as alias, *, constant, calculated column
+-- 1 FROM - table name
+-- 2 WHERE - condition - OR/AND
+-- 3 GROUP BY - column
+-- 4 HAVING - condition
+-- 6 ORDER BY - asc (by default), desc
+-- 7 LIMIT - number
+
 -- 1. show first_name, last_name from Latvia
 select first_name, last_name
 from userinfo
